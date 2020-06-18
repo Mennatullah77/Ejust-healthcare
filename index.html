@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="EjustLogo.jpg">
+    <script src="https://kit.fontawesome.com/f8e006c06f.js" crossorigin="anonymous"></script>
+    <title>E-just healthcare system</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <header> 
+        <!-- <div class="mobile">
+          <img class="logo" src="EjustLogo.png" alt="">  
+        <div class="menu">
+            
+          <button> <i class="fas fa-list" style="font-size: 60px;" 
+            > </i></button>
+            <div class="nav navbar-nav" >
+                <ul>
+                <li><a  class="p" href="./Clinic/Clinic.html"> Clinic </a> </li>
+                <li><a  class="p" href="./Pharmacy/pharmacy.html"> pharmacy </a> </li>
+                <li><a  class="p" href="./psychology/psychology.html"> Psychology </a> </li>
+                <li><a  class="p" href="./Emergency/Emergency.html"> Emergency </a> </li>
+                <li><a  class="p" href="./Contact/Contact.html"> Contact </a> </li>
+                </ul>
+            </div>
+           
+        </div>
+       
+        </div> -->
+     <div class="web">  
+         
+         <div class="nav">  <img class="logo" src="EjustLogo.png" alt="">
+        <a  class="p" href="./Clinic/Clinic.html"> Clinic </a>
+        <a  class="p" href="./Pharmacy/pharmacy.html"> pharmacy </a>
+        <a  class="p" href="./evacuation/evacuation.html"> Evacuation </a>
+        <a  class="p" href="./Emergency/Emergency.html"> Emergency </a>
+        <a  class="p" href="./Contact/Contact.html"> Contact </a>
+         
+              
+        <button class="signin"> Sign in </button>
+         <button class="signup"> <a href=""> Sign up</a>  </button>
+     </div>
+     </div>
+        
+    </header>
+    <main class="main">
+       <div class="img">
+            <!-- <img class="doctors" src="doctor.png" alt=""> -->
+        </div> 
+     <div class="para">
+         <p class="p1"> Happiness is no thing more than good health </p>
+         <p class="p2"> Your health is our priority</p> 
+      </div>
+      
+      <div class="get"> 
+          <input placeholder="Write you E-mail"/>
+          <button class="started"> <a href="./home/home.html" >Get started</a>  </button>
+      </div>
+      <div class="footer">
+       
+            <div  class="part1">
+                <i class="fas fa-clinic-medical"></i>
+                <p class="note"> Clini announcement  </p>
+            </div>
+            <div class="part2">
+                <i class="fas fa-capsules"></i>
+             <p class="note"> Get your medicine easily
+                 
+             </p>
+         </div>
+         <div  class="part3">
+             <i class="fas fa-ambulance"></i>
+             <p class="note"> Help you in case of emergency   
+             </p>
+            
+         </div >
+         <div class="part4">
+             <i class="fas fa-heart" ></i>
+             <p class="note"> Help you psychlogically
+                 
+             </p>
+
+         </div >
+         <div class="part5" >
+              <i class="fas fa-comments"></i>
+             <p class="note"> Send your feedback </p>
+            
+      </div>
+      
+    </main>
+    <footer></footer>
+ </body>
+ <script>
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+ </script>
+ </html>
