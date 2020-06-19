@@ -3,175 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
     <title>Document</title>
-    <link rel="stylesheet" href="Emergency.css">
 </head>
 <body>
-    <header> 
-        <div class="header">  
-            
-            <div class="nav">  <img class="logo" src="../EjustLogo.png" alt="">
-           <a  class="p" href="../Clinic/Clinic.html"> Clinic </a>
-           <a  class="p" href="../Pharmacy/pharmacy.html"> pharmacy </a>
-           <a  class="p" href="../evacuation/evacuation.html"> evacuation </a>
-           <a  class="p" href="../Emergency/Emergency.html"> Emergency </a>
-           <a  class="p" href="../Contact/Contact.html"> Contact </a>
-            
-                 
-           <button class="signin"> Sign in </button>
-            <button class="signup"> Sign up </button>
-        </div>
-        </div>
-           
-       </header>
-       <main>
-           <h1> First-Aid Tips</h1>
-           <p> what you should do and what you shouldn't do </p>
-     <div class="bleeding">
-        <h3> Bleeding </h3>
-         <img src="images/bleeding.png" alt="">
-         <p style="color: red; font-weight: bold;" >Direct pressure and elevation</p>
-         <p style="color: red; font-weight: bold;"> Don’t remove the cloth.
-            Add more layers .
-            </p>
-     </div>
-     <div class="burns"> 
-         <h3> Burns </h3>
-        <img src="images/burns.png" alt="">
-        <p style="color: red; font-weight: bold;"> Running water for several minutes</p>
-        <ul>
-            <li> For serious burns , Call 123</li>
-            <li> Apply thin fabric bandage</li>
-            <li> Don’t add any ointments</li>
-            <li> Don’t break the blisters formed</li>
-        </ul>
-    </div>
-    <div class="blisters">
-        <h3> Blisters</h3>
-        <img src="images/blisters.png" alt="">
-        <ul>
-            <li> Small , unbroken and not very painful : Cover it to prevent rubbing and leave it alone.</li>
-            <li>Large and painful : Use a sterilized needle and make small punctures at the edge of the blister and express the ﬂuid. Then apply antibiotic ointment and cover it to protect it from further rubbing and pressure.
+   <header> 
+      <div class="header">  
+          
+          <div class="nav">  <img class="logo" src="../EjustLogo.png" alt="">
+         <a  class="p" href="../Clinic/Clinic.html"> Clinic </a>
+         <a  class="p" href="../Pharmacy/Pharmacy.html"> pharmacy </a>
+         <a  class="p" href="../evacuation/evacuation.html"> evacuation </a>
+         <a  class="p" href="../Emergency/Emergency.html"> Emergency </a>
+         <a  class="p" href="../Contact/Contact.html"> Contact </a>
+          
+               
+         <button class="signin"> Sign in </button>
+          <button class="signup"> Sign up </button>
+      </div>
+      </div>
+         
+     </header>
+    <main>
+      <h1> First-Aid Tips</h1>
+      <h2> what you should do and what you shouldn't do </h2>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <input type="radio" name="slider" id="slide5">
+            <input type="radio" name="slider" id="slide6">
+            <input type="radio" name="slider" id="slide7">
+            <input type="radio" name="slider" id="slide8">
+            <input type="radio" name="slider" id="slide9">
+            <input type="radio" name="slider" id="slide10">
+            <input type="radio" name="slider" id="slide11">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="burns"> 
+                           <h3> Burns </h3>
+                          <img src="images/burns.png" alt="">
+                          <p style="color: red; font-weight: bold;"> Running water for several minutes</p>
+                          <ul>
+                              <li><p> For serious burns , Call 123</p></li>
+                              <li><p> Apply thin fabric bandage</p></li>
+                              <li> <p>Don’t add any ointments</p></li>
+                              <li><p> Don’t break the blisters formed</p></li>
+                          </ul>
+                      </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="“Limbs injury”">
+                           <h3>“Limbs injury”</h3>
+                           <img src="images/Limbs injury1.jpg" alt="">
+                           <img src="images/Limbs injury2.jpg" alt="" class="second">
+                           <p style="color: red; font-weight: bold;"> Treated as broken bones until an X-ray can be obtained</p>
+                           <ul>
+                              
+                              
+                              
+                               <li><p>Don't try to straighten the limb</p></li>
+                               <li><p>Apply a cold pack , but not directly on the skin</p> </li>
+                               <li><p>Stabilize the limb using a splint and padding to keep it immobile.</p> </li>
+                           </ul>
+                       </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="blisters">
+                           <h3> Blisters</h3>
+                           <img src="images/blisters.png" alt="">
+                           <ul >
+                              
+                               <li style="font-size: 18px;" ><p>Small , unbroken and not very painful : Cover it to prevent rubbing and leave it alone.</p> </li>
+                               <li style="font-size: 18px;">
+                               <p>Large and painful : Use a sterilized needle and make small punctures at the edge of the blister </p>and express the ﬂuid. 
+                                 <p> Then apply antibiotic ointment and cover it to protect it from further rubbing and pressure.</p>
+                               </li>
+                           </ul>
+                       </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="bleeding">
+                           <h3> Bleeding </h3>
+                            <img src="images/bleeding.png" alt="">
+                            <p style="color: red; font-weight: bold;" >Direct pressure and elevation</p>
+                            <p style="color: red; font-weight: bold;"> Don’t remove the cloth.
+                               Add more layers .
+                               </p>
+                        </div>
+                     </div>
+                     <div class="slide slide_5">
+                        <div class="Cardiac Arrest">
+                           <h3> Cardiac Arrest </h3>
+                           <img src="images/Cardiac Arrest.jpg" alt="">
+                           <ul>
+                               <li><p>Call 123 immediately</p></li>
+                               <li><p>CPR is the most important procedure (next slide )</p></li>
+                               <li> <p>Immediately start chest compressions regardless of your training.</p></li>
+                               <li><p>Hand this task over to those who are trained if and when they arrive.</p> </li>
+                           </ul>
+                       </div>
+                     </div>
+                     <div class="slide slide_6">
+                        <div class="Nosebleed">
+                           <h3>  Nosebleed </h3>
+                           <img src="images/Nosebleed.jpg" alt="">
+                           <ul>
+                          <li> <p>Lean forward, not back.</p>  </li>
+                               <li><p>Pinch (Hold )the nose just below the bridge.</p></li>
+                               <li><p>Don't pinch the nostrils closed by pinching lower.</p></li>
+                               <li><p>You can also apply a cold pack .</p></li>
+                           </ul>
+   
+                       </div>
+                     </div>
+                     
+                     <div class="slide slide_7">
+                        <div class="Fainting">
+                           <h3> Fainting        </h3>
+                           <img src="images/Fainting.jpg" alt="">
+                           <img src="images/Warning Signs of a Fainting Spell.jpg" class="second" alt="">
+                          <p style="color: red; font-weight: bold;"> If you feel faint :</p>
+                           <ul>
+                               <li> <p>Lie down or sit down to reduce the chance of fainting again, don't get up too quickly.</p></li>
+                               <li> <p>Place your head between your knees if you sit down.
+                              </p> </li>
+                           </ul>
+                           <p style="color: red; font-weight: bold;"> If someone else faints :
+                           </p>
+                           <ul>
+                               <li> <p>Position the person on his or her back</p></li>
+                               <li> <p>To reduce the chance of fainting again, don't get the person up too quickly.
+                              </p></li>
+                               <li> <p>If the person doesn't regain consciousness within one minute, call 123 </p></li>
+                               <li> <p>Check for breathing. If the person isn't breathing, begin CPR
+                              </p></li>
+                           </ul>                   
+                     </div>
+                  </div>
+                     <div class="slide slide_8">
+                        <div class="Bee stings">
+                           <h3>Bee stings  </h3>
+                           <img src="images/Bee stings.jpg" alt="">
+                           <img src="images/Bee stings2.jpg" alt="" class="second">
+                               <ul>
+                                  
+                                   <li><p>Get the stinger out any way you can to prevent more venom being delivered.</p></li>
+                                   <li><p>Use a cold pack to reduce swelling at the site, but take care not to cause frostbite.</p></li>
+                                   <li><p>Use an antihistamine to reduce swelling and itching.
+                                       Monitor the person who was stung.</p>
+                                       </li>
+                               </ul>
+                   
+                       </div>
+                     </div>
+                     <div class="slide slide_9">
+                        <div class="Diabetic coma">
+                           <h3> Diabetic coma        </h3>
+                           <img src="images/Diabetic coma.jpg" alt="">
+                           <img src="images/Diabetic coma2.jpg" alt="" class="second">
+                           <p style="color: red; font-weight: bold;"> ((( Call 123 for an ambulance immediately)))</p>
+                           <ul>
+                              
+                               <li><p>Don’t try to give them anything to eat or drink, as they may choke.</p></li>
+                               <li><p>Turn them onto their side to prevent obstruction to breathing.</p></li>
+                               <li><p>Follow any instructions given to you by the operator until the ambulance arrive.</li>
+                               <li><p>Don’t try to give them an insulin injection.</p></li>
+                               <li><p>If available, administer 1 mg of glucagon for rapid reversal of hypoglycaemia ( Very low blood sugar)</p></li>
+                               <li><p>Note : You have to measure the blood glucose level Low blood sugar is much more dangerous than low one</p></li>
+                           </ul>
+                       </div>
+                       </div>
+                     <div class="slide slide_10">
+                        <div class="Frostbite">
+                           <h3> Frostbite        </h3>
+                           <img src="images/Frostbite.jpg" alt="">
+                           <p style="color: red; font-weight: bold;">The most important procedure is : gradual warming
+                           </p>
+                           <ul>
+                               <li><p>If you can't make it to a medical facility, use immersion of the affected area in warm water (98 to 105 F) for 20 to 30 minutes to rewarm it.</p></li>
+                               <li><p>Do not rub the affected area or use heat sources.</p></li>
+                               <li><p>Small areas of minor frostbite may be rewarmed by skin-to-skin contact.</p></li>
+                               <li><p>Avoid using any heat sources or hot packs.       </p>     </li>
+                           </ul>
+                   
+                       </div>
+                     </div>
+                     <div class="slide slide_11">
+                        <div class="Jellyfish stings">
+                           <h3> Jellyfish stings
+                           </h3>
+                           <img src="images/Jellyfish stings.jpg" alt="">
+                           <img src="images/Jellyfish stings2.jpg" alt="">
+                           <ul>
+                               <li><p> Rainse the area of the sting generously with vinegar/ baking soda for at least 30 seconds.</p></li> 
+                               <li><p>Do not use a pressure bandage.      </p>      </li> 
+                               <li><p>Immerse the affected area in hot water, as hot as the person can tolerate until the pain goes away.
+                               </p></li> 
+                               <li><p>If hot water isn't available, use dry hot packs. If those aren't available, use dry cold packs.
+                               </p></li> 
+                               <li><p>Other methods to relieve pain are less effective such as urine</p>
+                                  <p> ★		Urine only works if it is acidic. Depending on diet, urine is not always acidic. Therefore, urine does not always work.</p></li> 
+                       </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+               <label for="slide5"></label>
+               <label for="slide6"></label>
+               <label for="slide7"></label>
+               <label for="slide8"></label>
+               <label for="slide9"></label>
+               <label for="slide10"></label>
+               <label for="slide11"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+               <label for="slide5"></label>
+               <label for="slide6"></label>
+               <label for="slide7"></label>
+               <label for="slide8"></label>
+               <label for="slide9"></label>
+               <label for="slide10"></label>
+               <label for="slide11"></label>
+            </div>
+         </div>
+    </main>
+    <footer>
 
-            </li>
-        </ul>
-    </div>
-    <div class="“Limbs injury”">
-        <h3>“Limbs injury”</h3>
-        <img src="images/Limbs injury1.jpg" alt="">
-        <img src="images/Limbs injury2.jpg" alt="">
-        <p style="color: red; font-weight: bold;"> Treated as broken bones until an X-ray can be obtained</p>
-        <ul>
-            <li>Don't try to straighten the limb</li>
-            <li> Apply a cold pack , but not directly on the skin</li>
-            <li> Stabilize the limb using a splint and padding to keep it immobile.</li>
-        </ul>
-    </div>
-    <div class="Cardiac Arrest">
-        <h3> Cardiac Arrest </h3>
-        <img src="images/Cardiac Arrest.jpg" alt="">
-        <ul>
-            <li>Call 123 immediately</li>
-            <li>CPR is the most important procedure (next slide )</li>
-            <li> Immediately start chest compressions regardless of your training.</li>
-            <li>Hand this task over to those who are trained if and when they arrive. </li>
-        </ul>
-    </div>
-    <div class="Nosebleed">
-        <h3>  Nosebleed </h3>
-        <img src="images/Nosebleed.jpg" alt="">
-        <ul>
-            <li>   Lean forward, not back.</li>
-            <li>Pinch (Hold )the nose just below the bridge.</li>
-            <li>Don't pinch the nostrils closed by pinching lower.</li>
-            <li>You can also apply a cold pack .</li>
-        </ul>
-       
-    </div>
-    <div class="Fainting">
-        <h3> Fainting        </h3>
-        <img src="images/Fainting.jpg" alt="">
-        <img src="images/Warning Signs of a Fainting Spell.jpg" alt="">
-       <p style="color: red; font-weight: bold;"> If you feel faint :</p>
-        <ul>
-            <li>Lie down or sit down to reduce the chance of fainting again, don't get up too quickly.</li>
-            <li>Place your head between your knees if you sit down.
-            </li>
-        </ul>
-        <p style="color: red; font-weight: bold;"> If someone else faints :
-        </p>
-        <ul>
-            <li>Position the person on his or her back</li>
-            <li>To reduce the chance of fainting again, don't get the person up too quickly.
-            </li>
-            <li>If the person doesn't regain consciousness within one minute, call 123</li>
-            <li>Check for breathing. If the person isn't breathing, begin CPR
-            </li>
-        </ul>
-    
-           
-    </div>
-    <div class="Bee stings">
-        <h3>Bee stings  </h3>
-        <img src="images/Bee stings.jpg" alt="">
-        <img src="images/Bee stings2.jpg" alt="">
-            <ul>
-                <li>Get the stinger out any way you can to prevent more venom being delivered.</li>
-                <li>Use a cold pack to reduce swelling at the site, but take care not to cause frostbite.</li>
-                <li>Use an antihistamine to reduce swelling and itching.
-                    Monitor the person who was stung.
-                    </li>
-            </ul>
-
-    </div>
-    <div class="Diabetic coma">
-        <h3> Diabetic coma        </h3>
-        <img src="images/Diabetic coma.jpg" alt="">
-        <img src="images/Diabetic coma2.jpg" alt="">
-        <p style="color: red; font-weight: bold;"> ((( Call 123 for an ambulance immediately)))</p>
-        <ul>
-            <li>Don’t try to give them anything to eat or drink, as they may choke.</li>
-            <li>Turn them onto their side to prevent obstruction to breathing.</li>
-            <li>Follow any instructions given to you by the operator until the ambulance arrive.</li>
-            <li>Don’t try to give them an insulin injection.</li>
-            <li>If available, administer 1 mg of glucagon for rapid reversal of hypoglycaemia ( Very low blood sugar)</li>
-            <li>Note : You have to measure the blood glucose level Low blood sugar is much more dangerous than low one</li>
-        </ul>
-    </div>
-    <div class="Frostbite">
-        <h3> Frostbite        </h3>
-        <img src="images/Frostbite.jpg" alt="">
-        <p style="color: red; font-weight: bold;">The most important procedure is : gradual warming
-        </p>
-        <ul>
-            <li>If you can't make it to a medical facility, use immersion of the affected area in warm water (98 to 105 F) for 20 to 30 minutes to rewarm it.</li>
-            <li>Do not rub the affected area or use heat sources.</li>
-            <li>Small areas of minor frostbite may be rewarmed by skin-to-skin contact.</li>
-            <li>Avoid using any heat sources or hot packs.            </li>
-        </ul>
-
-    </div>
-    <div class="Jellyfish stings">
-        <h3> Jellyfish stings
-        </h3>
-        <img src="images/Jellyfish stings.jpg" alt="">
-        <img src="images/Jellyfish stings2.jpg" alt="">
-        <ul>
-            <li> Rainse the area of the sting generously with vinegar/ baking soda for at least 30 seconds.</li> 
-            <li>Do not use a pressure bandage.            </li> 
-            <li>Immerse the affected area in hot water, as hot as the person can tolerate until the pain goes away.
-            </li> 
-            <li>If hot water isn't available, use dry hot packs. If those aren't available, use dry cold packs.
-            </li> 
-            <li>Other methods to relieve pain are less effective such as urine
-                ★		Urine only works if it is acidic. Depending on diet, urine is not always acidic. Therefore, urine does not always work.</li> 
-    </div>
-    <div>
-        <img src="" alt="">
-        <p></p>
-        <p> 
-           </p>
-    </div>
-       </main>
+    </footer>
 </body>
 </html>
